@@ -1,0 +1,151 @@
+.bluebg {
+    background-color: #235789;
+}
+
+.lightbluebg {
+    background-color: rgba(36, 201, 47, 0.4);
+}
+
+.mintbg {
+    background-color: #D9FFF8;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.btn-round {
+    border-radius: 50%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #F1FFE7;
+    font-size: xx-large;
+}
+
+.contact_title {
+    font-weight: 600;
+    font-size: xx-large;
+    color: #F1FFE7;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(0, 100, 0, 0.9);
+}
+
+.post_title {
+    font-weight: 600;
+    font-size: xx-large;
+    color: #084C61;
+    text-align: center;
+    text-shadow: 0 0 6px rgba(212, 186, 186, 0.9);
+}
+
+.info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #F1FFE7;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+form {
+    margin-top: 30px;
+    text-align: center;
+    height: 50vh;
+}
+  
+.feedback-input {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 25px;
+    background-color: aliceblue;
+    border: 2px solid #235789;
+    transition: all 0.1s linear;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 4px solid #235789;
+}
+
+#connection {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    background-color: rgba(0, 100, 0, 0.9);
+    color: #F1FFE7;
+    padding: 8px;
+}
+
+#connection:hover {
+    font-size: 25px;
+    background-color: green;
+}
+
+#new_post {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    padding: 8px;
+    color: #F1FFE7;
+    margin-top: 15px;
+    background-color: #439c69;
+}
+
+#new_post:hover {
+    font-size: 25px;
+}
+
+.intro {
+    background-color: #24250a;
+    height: 40vh;
+    position: relative;
+    top: -82px;
+    
+}
+
+.home-title {
+    font-family: 'Oswald';
+    text-align: center;
+    position: relative;
+    top: 110px;
+    color: whitesmoke;
+}
+
+.italics {
+    font-family: 'Playwrite CO';
+    font-size: 15px;
+}
